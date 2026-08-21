@@ -1,0 +1,24 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "ryu.approvals",
+  "version": "0.1.14",
+  "description": "Approval inbox: a human-in-the-loop queue where agent-proposed actions, edits, and fixes wait for your accept or reject before they take effect.",
+  "author": {
+    "name": "Ryu",
+    "url": "https://ryuhq.com"
+  },
+  "homepage": "https://github.com/amajorai/ryu-approvals",
+  "repository": "https://github.com/amajorai/ryu-approvals",
+  "keywords": [
+    "approvals",
+    "human-in-the-loop",
+    "security",
+    "review"
+  ],
+  "extensions": {
+    "com.ryuhq.ryu": {
+      "id": "@ryu/approvals",
+      "displayName": "Approvals"
+    }
+  }
+}
