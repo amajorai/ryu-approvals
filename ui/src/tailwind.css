@@ -1,0 +1,10 @@
+/* approvals companion Tailwind entry. Ryu semantic tokens, base styles, and live-theme defaults come from @ryu/ui/companion-theme.css; this file owns only the app's @source list and domain utilities. */
+@import "tailwindcss";
+@import "@ryu/ui/app-ui.css";
+@source "./";
+@source "../../../../packages/ui/src/components/badge.tsx";
+@source "../../../../packages/ui/src/components/button.tsx";
+@source "../../../../packages/ui/src/components/empty.tsx";
+@source "../../../../packages/ui/src/components/spinner.tsx";
+@source "../../../../packages/ui/src/components/tabs.tsx";
+@source "../../../../packages/ui/src/lib/notification-filters.tsx";
